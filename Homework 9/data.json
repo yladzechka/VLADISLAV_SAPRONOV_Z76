@@ -1,0 +1,28 @@
+{
+    "123456": [
+        {
+            "name": "Vladislav",
+            "age": 22
+        },
+        {
+            "name": "Alesya",
+            "age": 21
+        },
+        {
+            "name": "Anton",
+            "age": 34
+        },
+        {
+            "name": "Vladimir",
+            "age": 18
+        },
+        {
+            "name": "Elena",
+            "age": 40
+        },
+        {
+            "name": "Alina",
+            "age": 25
+        }
+    ]
+}
