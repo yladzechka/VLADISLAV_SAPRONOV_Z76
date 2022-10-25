@@ -10,7 +10,6 @@
 # Требуется реализовать функцию longest_words(file), которая выводит слово,
 # имеющее максимальную длину (или список слов, если таковых несколько).
 
-
 def longest_words(file):
     with open(file, encoding='utf-8') as text:
         item = text.read().split()
