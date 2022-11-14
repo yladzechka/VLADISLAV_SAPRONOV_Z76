@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1> Users </h1>
+
+    {% for user in users %}
+    <h2> Username {{ user['user_name'] }} </h2>
+    <h4> Password {{ user['password'] }} </h4>
+    <span class="badge badge-primary"> {{ user['registration_date'] }} </span>
+    <hr>
+    {% endfor %}
+</body>
+</html>
